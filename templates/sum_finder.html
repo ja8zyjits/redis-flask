@@ -1,0 +1,10 @@
+<html>
+	<form action='/sum' method='get'>
+		<p>Enter the number to find the sum
+		<input type=number name='number'></p>
+		<input type=submit>
+	</form>
+	{% if sum_value %}
+	<p>The sum value is {{sum_value}}</p>
+	{% endif %}
+</html>
